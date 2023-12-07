@@ -10,7 +10,7 @@
 session_start();
 
 if(isset($_SESSION['id'])){
-	$servername = "localhost";
+	$servername = "dunduwebapp1-server.mysql.database.azure.com";
 	$username = "root";
 	$password = "Dundappa@123";
 
@@ -136,7 +136,7 @@ if(isset($_POST['submitButton'])){
 										}else{
 											$address = $_POST['address'];
 
-											$servername = "localhost";
+											$servername = "dunduwebapp1-server.mysql.database.azure.com";
 											$username = "root";
 											$password = "Dundappa@123";
 
@@ -306,7 +306,7 @@ if(!isset($_SESSION['id'])){
 }
 
 if(isset($_POST['submitButton'])){
-	$servername = "localhost";
+	$servername = "dunduwebapp1-server.mysql.database.azure.com";
 	$username = "root";
 	$password = "Dundappa@123";
 
