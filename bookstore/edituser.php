@@ -12,7 +12,7 @@ $oEmail;
 $oPhone;
 $oAddress;
 
-$servername = "localhost";
+$servername = "dunduwebapp1-server.mysql.database.azure.com";
 $username = "root";
 $password = "Dundappa@123";
 
@@ -101,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 												}else{
 													$address = $_POST['address'];
 
-													$servername = "localhost";
+													$servername = "dunduwebapp1-server.mysql.database.azure.com";
 													$username = "root";
 													$password = "Dundappa@123";
 
